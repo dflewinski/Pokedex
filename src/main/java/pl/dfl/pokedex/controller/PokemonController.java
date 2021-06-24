@@ -9,6 +9,7 @@ import pl.dfl.pokedex.repository.PokemonRepository;
 import java.util.List;
 
 @RestController
+@RequestMapping("/api")
 public class PokemonController {
 
     private final PokemonRepository pokemonRepository;
